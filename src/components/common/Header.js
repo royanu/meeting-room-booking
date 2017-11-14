@@ -5,12 +5,12 @@ import {Link, IndexLink} from 'react-router';
 
 const Header =() =>{
   return (
-    <nav>
-        <IndexLink to="/" activeClassNmae="active">Home</IndexLink>
+    <nav className="navigation">
+        <IndexLink to="/" className="navlink" activeClassName="active">Available Now</IndexLink>
         {" | "}
-        <Link to="/about" activeClassNmae="active">About</Link>
+        <Link to="/about" className="navlink" activeClassName="active">Book Room</Link>
         {" | "}
-        <Link to="/courses" activeClassNmae="active">Courses</Link>
+        <Link to="/courses" className="navlink" activeClassName="active">Dates</Link>
     </nav>
   );
 };
