@@ -1,0 +1,13 @@
+.navigation {
+	background: $secondary;
+	.navlink {
+		color: $primary;
+		font-size: 14px;
+		padding: 20px;
+		display: inline-block;
+		text-transform: uppercase;
+		&.active {
+			border-bottom: 2px solid $red;
+		}
+	}
+}
